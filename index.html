@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بَراح – منصة تعليمية سعودية متخصصة</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ====== LOADER ====== -->
+    <div class="loader" id="loader">
+        <svg class="loader-svg" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" />
+        </svg>
+        <span class="loader-text">بَراح</span>
+    </div>
+
+    <!-- ====== WHATSAPP FLOAT ====== -->
+    <a href="https://wa.me/966562607769?text=أهلاً%20بَراح" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+        <span>استشر بَراح</span>
+        <span class="pulse-ring"></span>
+    </a>
+
+    <!-- ====== HEADER ====== -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <div class="logo">
+                <a href="#">
+                    <img src="Logo barah.png" alt="بَراح" />
+                </a>
+            </div>
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#programs">برامجنا</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#destinations">الوجهات</a></li>
+                    <li><a href="#partners">شركاؤنا</a></li>
+                    <li><a href="#testimonials">آراء الطلاب</a></li>
+                    <li><a href="#contact">تواصل</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="القائمة">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ====== MAIN ====== -->
+    <main>
+
+        <!-- ====== HERO ====== -->
+        <section class="hero" id="home">
+            <div class="hero-particles" id="particles-js"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-inner">
+                <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="hero-badge">
+                        <span class="badge-pulse"></span>
+                        ✨ منصة سعودية متخصصة
+                    </div>
+                    <h1>
+                        <span class="gradient-text">بَراح</span>
+                        <span class="hero-subtitle">بوابتك للتميز الأكاديمي</span>
+                    </h1>
+                    <p class="hero-desc">
+                        نقدم <span class="highlight">استشارات تعليمية</span> متكاملة،
+                        برامج <span class="highlight">دراسة بالخارج</span>،
+                        وخدمات <span class="highlight">قبول أكاديمي</span> موثوقة
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="99+">0</span>
+                            <span class="stat-label">طالب مستفيد</span>
+                        </div>
+                      
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="29+">0</span>
+                            <span class="stat-label">شريك تعليمي</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/966562607769" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> استشر الآن
+                        </a>
+                        <a href="#programs" class="btn btn-secondary">
+                            <i class="fas fa-arrow-down"></i> استكشف
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="hero-float-card">
+                        <img src="Logo barah.png" alt="بَراح" class="hero-logo-float" />
+                        <div class="float-card-content">
+                            <h4>🇸🇦 منصة سعودية</h4>
+                            <p>خدمات تعليمية متكاملة</p>
+                        </div>
+                    </div>
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                        <div class="shape shape-4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>مرر لأسفل</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- ====== PROGRAMS ====== -->
+        <section class="section programs" id="programs">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">برامجنا</span>
+                    <h2>برامج <span class="gradient-text">مميزة</span></h2>
+                    <p>اكتشف أفضل البرامج التعليمية المصممة خصيصاً لرحلة نجاحك</p>
+                </div>
+                <div class="programs-grid">
+                    <div class="program-card" data-aos="flip-up" data-aos-delay="100">
+                        <div class="program-image">
+                            <img src="المعسكر.png" alt="معسكر بَراح" />
+                            <div class="program-tag">الأكثر طلباً</div>
+                        </div>
+                        <div class="program-body">
+                            <h3>🎓 معسكر بَراح الصيفي 2026</h3>
+                            <p>برنامج مكثف لتطوير مهارات اللغة الإنجليزية في بيئة أكاديمية مميزة</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> مدربون معتمدون</li>
+                                <li><i class="fas fa-check-circle"></i> شهادة معتمدة</li>
+                                <li><i class="fas fa-check-circle"></i> أنشطة ترفيهية</li>
+                            </ul>
+                            <a href="javascript:void(0)" onclick="openPDF('packages.pdf')" class="btn btn-outline btn-sm">اكتشف البرنامج <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="program-card" data-aos="flip-up" data-aos-delay="200">
+                        <div class="program-image">
+                            <img src="الجامعي.png" alt="إعداد جامعي" />
+                        </div>
+                        <div class="program-body">
+                            <h3>📚 الإعداد الجامعي – ماليزيا</h3>
+                            <p>تأهيل الطلاب للالتحاق بالجامعات الماليزية عبر برامج اللغة والتأسيس</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> مسار أكاديمي متكامل</li>
+                                <li><i class="fas fa-check-circle"></i> إرشاد أكاديمي</li>
+                            </ul>
+                            <a href="javascript:void(0)" onclick="openPDF('packages.pdf')" class="btn btn-outline btn-sm">اكتشف البرنامج <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="program-card" data-aos="flip-up" data-aos-delay="300">
+                        <div class="program-image">
+                            <img src="التدريب الصيفي.png" alt="تدريب صيفي" />
+                        </div>
+                        <div class="program-body">
+                            <h3>💼 التدريب الصيفي – مهارات</h3>
+                            <p>برامج تدريبية صيفية لتطوير المهارات الشخصية والمهنية</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> ورش عمل تفاعلية</li>
+                                <li><i class="fas fa-check-circle"></i> شهادات إتمام</li>
+                            </ul>
+                            <a href="javascript:void(0)" onclick="openPDF('packages.pdf')" class="btn btn-outline btn-sm">اكتشف البرنامج <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== SERVICES ====== -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">خدماتنا</span>
+                    <h2>خدمات <span class="gradient-text">بَراح</span></h2>
+                    <p>نرافقك في كل خطوة من رحلتك التعليمية</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="service-icon"><i class="fas fa-user-graduate"></i></div>
+                        <h4>الاستشارة التعليمية</h4>
+                        <p>توجيه أكاديمي احترافي</p>
+                        <span class="service-number">01</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="150">
+                        <div class="service-icon"><i class="fas fa-university"></i></div>
+                        <h4>القبول الدراسي</h4>
+                        <p>مساعدتك في إجراءات القبول</p>
+                        <span class="service-number">02</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-icon"><i class="fas fa-passport"></i></div>
+                        <h4>التأشيرة الدراسية</h4>
+                        <p>دعم كامل لإجراءات التأشيرة</p>
+                        <span class="service-number">03</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="250">
+                        <div class="service-icon"><i class="fas fa-home"></i></div>
+                        <h4>اختيار السكن</h4>
+                        <p>خيارات سكن مريحة ومناسبة</p>
+                        <span class="service-number">04</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="service-icon"><i class="fas fa-plane-arrival"></i></div>
+                        <h4>الاستقبال من المطار</h4>
+                        <p>استقبالك فور وصولك</p>
+                        <span class="service-number">05</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="350">
+                        <div class="service-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                        <h4>المرافقة عند التسجيل</h4>
+                        <p>مرافقتك في يوم التسجيل</p>
+                        <span class="service-number">06</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="service-icon"><i class="fas fa-sim-card"></i></div>
+                        <h4>شريحة اتصال مجانية</h4>
+                        <p>شريحة اتصال فور وصولك</p>
+                        <span class="service-number">07</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="450">
+                        <div class="service-icon"><i class="fas fa-bus"></i></div>
+                        <h4>بطاقة المواصلات</h4>
+                        <p>تسهيل تنقلك خلال الدراسة</p>
+                        <span class="service-number">08</span>
+                    </div>
+                    <div class="service-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="service-icon"><i class="fas fa-headset"></i></div>
+                        <h4>المتابعة المستمرة</h4>
+                        <p>فريق متابع معك طوال الرحلة</p>
+                        <span class="service-number">09</span>
+                    </div>
+                </div>
+                <div class="services-footer" data-aos="fade-up">
+                    <div class="highlight-box">
+                        <i class="fas fa-quote-right"></i>
+                        <p>بَراح لا تقدم لك برنامجاً دراسياً فقط، بل ترافقك في رحلتك التعليمية من البداية وحتى الوصول والاستقرار.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== DESTINATIONS ====== -->
+        <section class="section destinations" id="destinations">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">وجهاتنا</span>
+                    <h2>وجهات <span class="gradient-text">الدراسة</span></h2>
+                    <p>اختر وجهتك الدراسية المثالية</p>
+                </div>
+                <div class="destinations-grid">
+                    <div class="destination-card" data-aos="flip-left" data-aos-delay="100">
+                        <img src="my.png" alt="ماليزيا" />
+                        <div class="destination-body">
+                            <h3>🇲🇾 ماليزيا</h3>
+                            <p>برامج اللغة والإعداد الجامعي</p>
+                            <span class="badge available">متاحة الآن</span>
+                            <a href="#" class="btn btn-sm btn-outline">استكشف <i class="fas fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                    <div class="destination-card" data-aos="flip-left" data-aos-delay="200">
+                        <img src="au.png" alt="أستراليا" />
+                        <div class="destination-body">
+                            <h3>🇦🇺 أستراليا</h3>
+                            <p>برامج متنوعة في أفضل الجامعات</p>
+                            <span class="badge coming">قريباً</span>
+                        </div>
+                    </div>
+                    <div class="destination-card" data-aos="flip-left" data-aos-delay="300">
+                        <img src="gb.png" alt="بريطانيا" />
+                        <div class="destination-body">
+                            <h3>🇬🇧 بريطانيا</h3>
+                            <p>برامج أكاديمية متميزة</p>
+                            <span class="badge coming">قريباً</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== PARTNERS ====== -->
+        <section class="section partners" id="partners">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">شركاؤنا</span>
+                    <h2>شركاء <span class="gradient-text">النّجاح</span></h2>
+                    <p>نفخر بشراكتنا مع أفضل المؤسسات التعليمية</p>
+                </div>
+                <div class="partners-grid">
+                    <div class="partner-card" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="1.png" alt="شريك 1" />
+                    </div>
+                    <div class="partner-card" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="2.png" alt="شريك 2" />
+                    </div>
+                    <div class="partner-card" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="3.png" alt="شريك 3" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====== WHY BARAH ====== -->
+        <section class="section why-barah">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">لماذا بَراح؟</span>
+                    <h2>لماذا <span class="gradient-text">بَراح</span>؟</h2>
+                    <p>شريكك الموثوق في رحلة التفوق الأكاديمي</p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item" data-aos="flip-right" data-aos-delay="100">
+                        <div class="why-icon">🇸🇦</div>
+                        <h4>فريق سعودي متخصص</h4>
+                        <p>خبراء يفهمون احتياجاتك</p>
+                    </div>
+                    <div class="why-item" data-aos="flip-right" data-aos-delay="200">
+                        <div class="why-icon">🌎</div>
+                        <h4>شراكات عالمية</h4>
+                        <p>شبكة واسعة من المؤسسات</p>
+                    </div>
+                    <div class="why-item" data-aos="flip-right" data-aos-delay="300">
+                        <div class="why-icon">🎓</div>
+                        <h4>برامج متنوعة</h4>
+                        <p>خيارات تناسب تطلعاتك</p>
+                    </div>
+                    <div class="why-item" data-aos="flip-right" data-aos-delay="400">
+                        <div class="why-icon">🤝</div>
+                        <h4>خدمات متكاملة</h4>
+                        <p>دعم شامل من البداية</p>
+                    </div>
+                    <div class="why-item" data-aos="flip-right" data-aos-delay="500">
+                        <div class="why-icon">⭐</div>
+                        <h4>تجربة استثنائية</h4>
+                        <p>رحلة أكاديمية للتميز</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- ====== TESTIMONIALS ====== -->
+<section class="section testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">آراء طلابنا</span>
+            <h2>تجارب <span class="gradient-text">طلابنا</span></h2>
+            <p>ما يقوله طلابنا عن رحلتهم مع بَراح</p>
+        </div>
+        <div class="testimonials-grid">
+            <!-- فيديو 1 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-header">
+                    <span class="video-icon"><i class="fas fa-play-circle"></i></span>
+                    <div>
+                        <h5> 🎓 تعرّف على جامعة لينكولن الماليزية 🇲🇾
+</h5>
+                        <span> نعرّفكم على الجامعة، التخصصات، الحياة الجامعية، والفرص التعليمية المتاحة لطلابنا ✨</span>
+                    </div>
+                </div>
+                <div class="testimonial-body video-wrapper">
+                    <iframe width="100%" height="200" src="11.mp4" title="تجربة طالب 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- فيديو 2 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-header">
+                    <span class="video-icon"><i class="fas fa-play-circle"></i></span>
+                    <div>
+                        <h5>🎓 تجربة طلابنا مع بَراح التعليمية 🇲🇾✨  </h5>
+                        <span> نعرّفكم على المعهد، بيئة الدراسة، وبرامج اللغة الإنجليزية المتاحة لطلابنا ✨ </span>
+                    </div>
+                </div>
+                <div class="testimonial-body video-wrapper">
+                    <iframe width="100%" height="200" src="22.mp4" title="تجربة طالب 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <!-- فيديو 3 -->
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="testimonial-header">
+                    <span class="video-icon"><i class="fas fa-play-circle"></i></span>
+                    <div>
+                        <h5> 🎓 تعرّف على معهد IABT في ماليزيا 🇲🇾 </h5>
+                        <span>نعرّفكم على المعهد، بيئة الدراسة، وبرامج اللغة الإنجليزية المتاحة لطلابنا ✨
+ </span>
+                    </div>
+                </div>
+                <div class="testimonial-body video-wrapper">
+                    <iframe width="100%" height="200" src="33.mp4" title="تجربة طالب 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- ====== CONTACT ====== -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">تواصل معنا</span>
+                    <h2>تواصل <span class="gradient-text">مع بَراح</span></h2>
+                    <p>نحن هنا للإجابة على جميع استفساراتك</p>
+                </div>
+                <div class="contact-inner">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-card">
+                            <h3>📬 معلومات الاتصال</h3>
+                            <ul class="contact-list">
+                                <li>
+                                    <i class="fab fa-whatsapp"></i>
+                                    <div>
+                                        <span class="contact-label">واتساب</span>
+                                        <a href="https://wa.me/966562607769" target="_blank">966562607769+</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <div>
+                                        <span class="contact-label">البريد الإلكتروني</span>
+                                        <a href="baraahbysaleh@gmail.com">baraahbysaleh@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div>
+                                        <span class="contact-label">المقر الرئيسي</span>
+                                        <span>جدة، المملكة العربية السعودية</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="contact-social">
+                                <span>تابعنا على:</span>
+                                <div class="social-icons">
+                                    <a href="https://www.instagram.com/baraa_h2026?igsh=MTFjaG9xdmpiN2Q0cQ%3D%3D&utm_source=qr" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://youtube.com/@baraheducation?si=GNqmCGATSmaSC7fY" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.tiktok.com/@baraah2026?is_from_webapp=1&sender_device=pc" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+                                    <a href="https://wa.me/966562607769" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map" data-aos="fade-left">
+                        <div class="map-wrapper">
+                            <img src="Contact.PNG" alt="موقع بَراح" />
+                            <div class="map-pulse"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#programs">برامجنا</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#partners">شركاؤنا</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>الدعم</h4>
+                    <ul>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">الشروط والأحكام</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>اشترك في النشرة</h4>
+                    <p>احصل على آخر الأخبار والعروض</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="بريدك الإلكتروني" required />
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="footer-social">
+                        <h4>تابعنا</h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/baraa_h2026?igsh=MTFjaG9xdmpiN2Q0cQ%3D%3D&utm_source=qr" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com/@baraheducation?si=GNqmCGATSmaSC7fY" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.tiktok.com/@baraah2026?is_from_webapp=1&sender_device=pc" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://wa.me/966562607769" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 بَراح التعليمية. جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====== PDF MODAL ====== -->
+    <div class="pdf-modal" id="pdfModal">
+        <div class="pdf-modal-content">
+            <div class="pdf-modal-header">
+                <h3>📄 باقات بَراح التعليمية</h3>
+                <button class="pdf-modal-close" onclick="closePDF()">&times;</button>
+            </div>
+            <div class="pdf-modal-body">
+                <iframe id="pdfIframe" src="" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- ====== SCRIPTS ====== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
